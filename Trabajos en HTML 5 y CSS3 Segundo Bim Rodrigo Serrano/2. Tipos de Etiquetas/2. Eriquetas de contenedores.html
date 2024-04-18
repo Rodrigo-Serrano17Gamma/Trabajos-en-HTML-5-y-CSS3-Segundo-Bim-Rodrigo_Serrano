@@ -1,0 +1,143 @@
+<!--Etiquetas de contenedores, investigar para que sirve cada contenedor y lo escribimos en un comentario y un ejemplo-->
+<!--Rodrigo Serrano - 17/04/2024-->
+
+<!-- Etiqueta No.1 "div"-->
+<!-- Explicación: La etiqueta <div> se emplea para definir un bloque de contenido o sección de la página, 
+    para poder aplicarle diferentes estilos e incluso para realizar operaciones sobre ese bloque específico.-->
+
+<!--Ejemplo-->
+<div class="myDiv">
+
+
+    <h2>Esto es un título en un elemento div</h2>
+  
+  
+    <p>Este sería un pequeño texto en un elemento div</p>
+  
+  
+  </div>
+
+
+<!-- Etiqueta No.2 "main" -->
+<!-- Explicación: representa el contenido principal del <body> de un documento o aplicación.-->
+<!--Ejemplo:-->
+<main>
+    <h1>Apples</h1>
+    <p>The apple is the pomaceous fruit of the apple tree.</p>
+  
+    <article>
+      <h2>Red Delicious</h2>
+      <p>
+        These bright red apples are the most common found in many supermarkets.
+      </p>
+      <p>...</p>
+      <p>...</p>
+    </article>
+  
+    <article>
+      <h2>Granny Smith</h2>
+      <p>These juicy, green apples make a great filling for apple pies.</p>
+      <p>...</p>
+      <p>...</p>
+    </article>
+  </main>
+
+
+<!-- Etiqueta No.3 "header" -->
+<!-- Explicación: representa un grupo de ayudas introductorias o de navegación. 
+    Puede contener algunos elementos de encabezado, así como también un logo.-->
+<!--Ejemplo:-->
+<header>
+    <h1>Título de la página</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Etiqueta No.4 "footer" -->
+<!-- Explicación: es una de las nuevas etiquetas semánticas introducidas
+     en HTML5 que se utiliza para representar la sección de pie de página de un documento web..-->
+<!--Ejemplo:-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Footer HTML</title>
+    <style>
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Contenido Principal</h1>
+        <p>Este es el contenido principal de mi página web.</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+<!-- Etiqueta No.5 "section" -->
+<!-- Explicación: representa una sección genérica independiente de un documento, que no tiene un elemento semántico.-->
+<!--Ejemplo:-->
+<section>
+    <h2>WWF History</h2>
+    <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+    </section>
+    
+    <section>
+    <h2>WWF's Symbol</h2>
+    <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section>
+
+<!-- Etiqueta No.6 "article" -->
+<!-- Explicación: se utiliza para marcar contenido independiente y 
+    autónomo dentro de un documento, como un artículo, una publicación de blog, una entrada de foro, una noticia, una reseña, etc..-->
+<!--Ejemplo:-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Article HTML</title>
+    <style>
+        article {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h2>Artículo 1</h2>
+        <p>Este es el contenido del primer artículo.</p>
+    </article>
+
+    <article>
+        <h2>Artículo 2</h2>
+        <p>Este es el contenido del segundo artículo.</p>
+    </article>
+</body>
+</html>
