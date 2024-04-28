@@ -1,0 +1,21 @@
+body{/**/
+    background-color:cornflowerblue ;/*Este es el fondo del color */
+    font-family: Arial, "Trebuchet MS", Helvetica, sans-serif, Verdana;
+}
+
+h1/*H1 Es el título*/{
+    color: black;
+    /*Color de la letra del título*/
+}
+h1,h2/*Subtítulos son los que tienen el etiquetado de h2*/{
+    text-align: center;/*Alineación de texto, al centro*/
+}
+
+p/*P representa el párafo o los parrafos.*/{
+    color: white; /*color del párrafo*/
+    font-size: 15 px;/*Tamaño de letra, ligada a los pixeles*/
+}
+
+div h2{/*Es usado para los cajones de texto, a manera de párrado, pero div, solo se usa para párrafos sencillos*/
+    color: darkblue;
+}
