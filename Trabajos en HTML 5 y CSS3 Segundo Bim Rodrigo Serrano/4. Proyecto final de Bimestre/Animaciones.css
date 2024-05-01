@@ -1,0 +1,143 @@
+/*Giro infinito: Rota un elemento continuamente.*/
+.giro-infinito {
+    animation: giro 2s infinite linear;
+}
+
+@keyframes giro {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*Pulso: Hace que un elemento se agrande y luego vuelva a su tamaño original.*/
+.pulso {
+    animation: pulso 1s infinite alternate;
+}
+
+@keyframes pulso {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/*Desplazamiento de izquierda a derecha: Desplaza un elemento de izquierda a derecha.*/
+.desplazamiento {
+    animation: desplazar 2s infinite alternate;
+}
+
+@keyframes desplazar {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(200px);
+    }
+}
+
+/*Aparición gradual: Hace que un elemento aparezca gradualmente.*/
+.aparicion {
+    opacity: 0;
+    animation: aparecer 2s forwards;
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+    }
+}
+
+/*Cambio de color: Cambia el color de fondo de un elemento.*/
+.cambio-color {
+    background-color: red;
+    animation: cambiar-color 2s infinite alternate;
+}
+
+@keyframes cambiar-color {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+/*Parpadeo: Hace que un elemento parpadee.*/
+.parpadeo {
+    animation: parpadear 1s infinite;
+}
+
+@keyframes parpadear {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*Balanceo: Hace que un elemento se balancee de izquierda a derecha.*/
+.balanceo {
+    animation: balancear 2s infinite alternate;
+}
+
+@keyframes balancear {
+    from {
+        transform: rotate(-10deg);
+    }
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+/*Zoom: Hace que un elemento aumente su tamaño.*/
+.zoom {
+    animation: zoom 2s infinite alternate;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+/*Desvanecimiento: Hace que un elemento se desvanezca gradualmente.*/
+.desvanecer {
+    opacity: 1;
+    animation: desvanecer 2s forwards;
+}
+
+@keyframes desvanecer {
+    to {
+        opacity: 0;
+    }
+}
+
+/*Rotación y escala: Combina rotación y escalado en un mismo efecto.*/
+.rotacion-escala {
+    animation: rotar-escalar 2s infinite alternate;
+}
+
+@keyframes rotar-escalar {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to {
+        transform: rotate(360deg) scale(1.5);
+    }
+}
+
